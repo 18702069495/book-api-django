@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #'.gitignore'的作用是告诉 Git： 这些文件/目录不要追踪，不要提交到仓库
 
@@ -35,3 +36,8 @@ staticfiles/
 .DS_Store
 Thumbs.db
 desktop.ini
+=======
+# Build folder and log file
+build/
+build.log
+>>>>>>> 1f8baec64553f241fa78c060ca75aa1466a0727f
