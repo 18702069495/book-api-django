@@ -18,6 +18,7 @@ class Author(models.Model):
 
 class Tag(models.Model):
     name = models.CharField(max_length=30, unique=True, verbose_name='标签名称')
+    description = models.CharField(max_length=200, blank=True, default='', verbose_name='标签描述')
     create_time = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
     def __str__(self):
         return self.name
